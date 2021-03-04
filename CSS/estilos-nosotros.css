@@ -1,0 +1,136 @@
+.our-team {
+    margin-bottom: 20px;
+    color: #000;
+    padding: 15px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 10px
+}
+
+.our-team h3 {
+    font-size: 30px;
+    padding: 10px;
+    color: #008abe;
+    text-align: center;
+}
+
+.our-team .our-team_titulo {
+    font-family: 'pacifico', cursive;
+    font-size: 30px;
+    color: #008abe;
+    margin: auto;
+}
+
+.our-team .our-team_txt{
+    text-align: justify;
+    padding: 15px;
+}
+
+.our-team_img {
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid #008abe;
+}
+
+.group {
+    padding: 15px;
+    text-align: center;
+}
+
+.main__about__description .container {
+    background: #008abe;
+}
+
+.group .column__txt {
+    text-align: justify;
+    color: #fff;
+}
+
+.group h3 {
+    color: #fff;
+    text-align: center;
+    font-family: 'pacifico', cursive;
+    font-size: 25px;
+}
+
+.group p {
+    text-align: justify;
+    margin-left: 5px;
+    color: #fff;
+}
+
+@media screen and (min-width:480px) {
+    .our-team .our-team_titulo {
+        text-align: center;
+    }
+    .main img{
+        max-width: 90%;
+    }
+    
+    .our-team .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .our-team_columna{
+        width: 40%;
+    }
+    .our-team h3{
+        margin-right: 16px;
+        color: #008abe;
+        font-size: 18px;
+        text-align: center;
+    }
+    .img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .our-team h3{
+        font-size: 22px;
+    }
+    .our-team__img {
+        width: 220px;
+        height: 220px;
+    }
+    .img {
+        width: 200px;
+        height: 200px;
+    }
+    .our-team_columna{
+        width: 24%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .our-team h3{
+        font-size: 26px;
+    }
+    .our-team__img {
+        width: 310px;
+        height: 310px;
+    }
+    .our-team_titulo {
+        font-size: 2.1em;
+    }
+    .img {
+        width: 250px;
+        height: 230px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .our-team h3{
+        font-size: 32px;
+    }
+    .our-team__img {
+        width: 420px;
+        height: 420px;
+    }
+}

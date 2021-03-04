@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Galeria | Technology Zone</title>
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minium-scale=1.0">
+        <link rel="stylesheet" href="CSS/estilos.css">
+        <link rel="stylesheet" href="CSS/estilos-social_bar.css">
+        <link rel="stylesheet" href="CSS/estilos-galeria.css">
+        <link rel="stylesheet" href="CSS/fontello.css">
+    </head>
+    
+    <body>
+      <div class="social_bar">
+        <a href="https://www.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://twitter.com/?lang=es" class="icon icon-twitter" target="_blank"></a>
+        <a href="https://www.google.com/intl/es/gmail/about/#/" class="icon icon-correo" target="_blank"></a>
+        <a href="https://www.whatsapp.com/?lang=es/" class="icon icon-whatsapp" target="_blank"></a>
+        <a href="https://www.youtube.com/" class="icon icon-youtube" target="_blank"></a>
+        </div>
+       <div class="modal" id="modal">
+           <div class="modal__content">
+               <img src="" class="modal__img" id="modal__img">
+           </div>
+           <div class="modal__boton" id="modal__boton">X</div>
+       </div>
+        <header class="main-header">
+            <div class="container container--flex">
+                <div class="logo-container column column--50">
+                    <h1 class="logo icon-laptop">Technology zone</h1>
+                </div>
+                <div class="main-header__contactInfo column column--50">
+                <p class="main-header__iniciarsesion">
+                    <a href="login_responsive/login.html" class="btn1 btn--contact">Ini. Sesión</a>
+                </p>
+                <p class="main-header__Registrate">
+                     <a href="login_responsive/registros.html" class="btn1 btn--contact">Registrate</a>
+                </p>
+                </div>
+            </div>
+        </header>
+        <nav class="main-nav">
+            <div class="container container--flex">
+                <span class="icon-menu" id="btnmenu"></span>
+                <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+                    <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                    <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Productos</a></li>
+                    <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+                </ul>
+                <div class="social-icon">
+                    <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                    <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                    <a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="banner">
+            <img src="IMG-galeria/banner.jpg" class="banner__img">
+            <div class="banner__content">Lo mejor de nosotros a tu servicio</div>
+        </section>
+        
+        <main class="main">
+            <h1 class="txt_galeria">Conoce algunos de nuestros productos</h1>
+            <div class="contenedor">
+                <div class="fila">
+                    <div class="columna-1-3">
+                        <div class="small">
+                        <img src="IMG-galeria/img1.jpg" class="galery-img"></div>
+                        <div class="small">
+                        <img src="IMG-galeria/img2.jpeg" class="galery-img"></div>
+                    </div>
+                    <div class="columna-2-3">
+                        <div class="normal">
+                        <img src="IMG-galeria/img3.jpg" class="galery-img"></div>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="columna-2-3">
+                        <div class="fila">
+                            <div class="columna-50">
+                                <div class="large">
+                                <img src="IMG-galeria/img4.png" class="galery-img">
+                                </div>
+                            </div>
+                            <div class="columna-50">
+                                <div class="small">
+                                <img src="IMG-galeria/img5.png" class="galery-img">
+                                </div>
+                                <div class="small">
+                                <img src="IMG-galeria/img6.png" class="galery-img"></div>
+                            </div>
+                        </div>
+                        <div class="normal">
+                            <img src="IMG-galeria/img7.png" class="galery-img">
+                        </div>
+                    </div>
+                    <div class="columna-1-3">
+                        <div class="small">
+                        <img src="IMG-galeria/img9.png" class="galery-img">
+                        </div>
+                        <div class="large">
+                        <img src="IMG-galeria/img8.png" class="galery-img">
+                        </div>
+                        <div class="small">
+                        <img src="IMG-galeria/img10.jpg" class="galery-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="columna-1-3">
+                        <div class="small">
+                        <img src="IMG-galeria/img11.jpg" class="galery-img"></div>
+                        <div class="small">
+                        <img src="IMG-galeria/img12.jpg" class="galery-img"></div>
+                    </div>
+                    <div class="columna-2-3">
+                        <div class="normal">
+                        <img src="IMG-galeria/img13.png" class="galery-img"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="main-footer">
+                <div class="container container--flex">
+                  <div class="container container--flex">
+                    <div class="column column--50">
+                     <h3 class="txt--suscripcion">¡Suscribete!</h3>
+                     <div class="column--25">
+                     <input type="text" class="footer-suscribirse" name="suscribete">
+                     <label for="" class="footer-label">Correo Electronico</label>
+                     <input type="submit" class="btn2 btn2-submit" name="suscribirse">
+                     </div>
+                   </div>
+                   <div class="column column--50">
+                   <h1 class="logo_pagina icon-laptop">Technology zone</h1>
+                   </div>
+                   
+                   <p class="copy">&copy; 2020 Technology Zone | Todos los derechos reservados</p>
+                </div>
+        </footer>
+    <script src="JS/menu.js"></script>
+    <script src="JS/galeria.js"></script>
+    <script src="JS/suscripcion.js"></script>
+    </body>
+</html>

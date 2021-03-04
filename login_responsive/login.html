@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login | Inicio</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <div class="login-box">
+            <img class="avatar" src="img/usuario.png" alt="logo de FAzt">
+            <h1>Inicio de Sesión</h1>
+            <form method="post" action="php/BD_login.php">
+                <!--- User Name --->
+                <label for="Username">Nombre de Usuario:</label>
+                <input type="text" name="usuario" placeholder="&#128101; Enter Username">
+                
+                <!--- Password --->
+                <label for="Password">Contraseña:</label>
+                <input type="password" name="clave" placeholder="&#128272; Enter Password">
+                
+                <input type="submit" value="Iniciar Sesión">
+                
+                <a href="#">¿Perdiste tu contraseña?</a>
+                <br>
+                <a href="registros.html">¿No tienes una cuenta? Registrate</a>
+            </form>
+        </div>
+    </body>
+</html>
